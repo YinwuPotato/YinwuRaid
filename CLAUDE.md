@@ -4,7 +4,7 @@
 - **技术栈**: Java 21, Maven, Paper API 1.21.4
 - **打包**: `mvn clean package` → `target/YinwuRaid-<version>.jar`
 - **Folia 兼容**: 是
-- **GitHub**: https://github.com/qumingjam/YinwuRaid
+- **GitHub**: https://github.com/YinwuPotato/YinwuRaid
 
 ## 功能
 - 倒置信标（搭建结构触发灾厄效果）

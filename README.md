@@ -1,7 +1,7 @@
 # YinwuRaid — Yinwu灾厄袭击
 # YinwuRaid — Raid System
 
-**最新版本：v1.2.3** | [下载 Release](https://github.com/qumingjam/YinwuRaid/releases/tag/v1.2.3)
+**最新版本：v1.2.3** | [下载 Release](https://github.com/YinwuPotato/YinwuRaid/releases/tag/v1.2.3)
 
 Multi-wave calamity raid system triggered by high-level Bad Omen effects.
 
@@ -66,7 +66,7 @@ YinwuRaid
 ## Build | 构建
 
 ```bash
-git clone https://github.com/qumingjam/YinwuRaid.git
+git clone https://github.com/YinwuPotato/YinwuRaid.git
 cd YinwuRaid
 mvn clean package
 ```
@@ -77,10 +77,10 @@ mvn clean package
 
 ## Dependencies | 依赖
 
-- **[YinwuPluginLib](https://github.com/qumingjam/YinwuPluginLib)**（必需）
+- **[YinwuPluginLib](https://github.com/YinwuPotato/YinwuPluginLib)**（必需）
 - **[Paper API 1.21+](https://papermc.io/)**（provided）
-- **[YinwuForge](https://github.com/qumingjam/YinwuForge)**（可选，袭击掉落可锻造材料）
-- **[YinwuEnchant](https://github.com/qumingjam/YinwuEnchant)**（可选，袭击奖励含自定义附魔书）
+- **[YinwuForge](https://github.com/YinwuPotato/YinwuForge)**（可选，袭击掉落可锻造材料）
+- **[YinwuEnchant](https://github.com/YinwuPotato/YinwuEnchant)**（可选，袭击奖励含自定义附魔书）
 - **MythicMobs**（可选，自定义生物生成）
 
 ---
@@ -95,6 +95,6 @@ mvn clean package
 
 ## Links | 链接
 
-- 仓库：[github.com/qumingjam/YinwuRaid](https://github.com/qumingjam/YinwuRaid)
-- 关联：[YinwuForge](https://github.com/qumingjam/YinwuForge) | [YinwuEnchant](https://github.com/qumingjam/YinwuEnchant)
+- 仓库：[github.com/YinwuPotato/YinwuRaid](https://github.com/YinwuPotato/YinwuRaid)
+- 关联：[YinwuForge](https://github.com/YinwuPotato/YinwuForge) | [YinwuEnchant](https://github.com/YinwuPotato/YinwuEnchant)
 - 作者：Qumingjam
