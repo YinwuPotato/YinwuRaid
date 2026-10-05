@@ -90,7 +90,7 @@ mvn clean package
 
 ## Dependencies | 依赖
 
-- **[YinwuPluginLib](https://github.com/YinwuPotato/YinwuPluginLib)**（必需）
+- **[YinwuPluginLib](https://github.com/YinwuPotato/YinwuPluginLib)**（**构建期**前置 —— 构建产物已把该库 shade 进 jar，服务器上**不需要**单独安装它）
 - **[Paper API 1.21+](https://papermc.io/)**（provided）
 - **[YinwuForge](https://github.com/YinwuPotato/YinwuForge)**（可选，袭击掉落可锻造材料）
 - **[YinwuEnchant](https://github.com/YinwuPotato/YinwuEnchant)**（可选，袭击奖励含自定义附魔书）
