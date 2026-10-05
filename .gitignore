@@ -37,4 +37,6 @@ build/
 
 ### Project specific ###
 .tongyiignore
-MYTHICMOBS_INTEGRATION.mddependency-reduced-pom.xml
+MYTHICMOBS_INTEGRATION.md
+
+dependency-reduced-pom.xml
