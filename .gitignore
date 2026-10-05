@@ -40,3 +40,7 @@ build/
 MYTHICMOBS_INTEGRATION.md
 
 dependency-reduced-pom.xml
+
+### 构建/运行产物 ###
+*.stackdump
+*.jar
