@@ -35,6 +35,8 @@ Multi-wave calamity raid system triggered by high-level Bad Omen effects.
 
 ## Commands | 命令
 
+主命令 `/yinwuraid`，别名 `/yr`。
+
 | 命令 | 说明 | 权限 |
 |------|------|------|
 | `/yinwuraid help` | 查看帮助 | `yinwu.raid.use` |
@@ -72,6 +74,17 @@ mvn clean package
 ```
 
 产出：`target/YinwuRaid-1.2.3.jar`
+
+> **前置步骤（首次构建必需）**：本插件依赖共享库 `YinwuPluginLib`，而它不在 Maven 中央仓库。
+> 首次构建前先克隆并安装一次：
+>
+> ```bash
+> git clone https://github.com/YinwuPotato/YinwuPluginLib.git
+> cd YinwuPluginLib && mvn clean install
+> ```
+>
+> 之后回到本仓库 `mvn clean package` 即可。父 POM（`net.yinwu:YinwuPlugins:1.0.1`）
+> 已随仓库提供在 `parent/pom.xml`，无需额外操作。
 
 ---
 
